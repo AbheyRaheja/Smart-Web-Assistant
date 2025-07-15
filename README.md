@@ -140,24 +140,3 @@ If the LLM can't answer (uncertain phrases like *"not mentioned"* or *"I don't k
 Set this up by adding your `SERPAPI_API_KEY` in `.env`.
 
 ---
-
-## ✅ TODO / Ideas
-
-- [ ] Add support for multiple users or sessions
-- [ ] Deploy backend to Render, Hugging Face, or Fly.io
-- [ ] Add history panel to the Chrome extension
-- [ ] Support multiple LLMs (OpenAI, Mistral, Claude)
-
----
-
-## 🧑‍💻 Author Notes
-
-This was built as a personal project to speed up reading and make research more interactive. Great for summarizing blogs, tutorials, research papers, or even legal documents.
-
-If you find this helpful or want to contribute, feel free to fork or open issues!
-
----
-
-## 📄 License
-
-MIT – Use it, remix it, improve it ✨
