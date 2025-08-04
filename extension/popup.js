@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     initialized = true;
 
-    fetch("http://127.0.0.1:8000/summary-chat", {
+    fetch("https://smart-web-assistant.onrender.com/summary-chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     input.value = "";
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/summary-chat", {
+      const res = await fetch("https://smart-web-assistant.onrender.com/summary-chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

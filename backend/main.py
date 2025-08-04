@@ -10,11 +10,12 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Or restrict to ["chrome-extension://<EXTENSION_ID>"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 @app.post("/summary-chat")
 async def summary_chat(data: ChatRequest):
