@@ -4,7 +4,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.utilities.serpapi import SerpAPIWrapper
 from langchain.chains import LLMChain
-from schema import ChatRequest  
+from .schema import ChatRequest  
 import os
 from dotenv import load_dotenv
 

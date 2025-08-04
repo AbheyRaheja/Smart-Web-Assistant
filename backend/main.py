@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from schema import ChatRequest
-from chatbot import handle_query
+from .schema import ChatRequest
+from .chatbot import handle_query
 import os
 
 load_dotenv()
