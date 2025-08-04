@@ -57,7 +57,7 @@ async def handle_query(data: ChatRequest):
     content = data.content.strip()
     question = data.question.strip()
 
-    if not content or len(content) < 300:
+    if not content:
         fallback_answer = fallback_with_search(question, summary="")
         return {
             "summary": "Not enough content to summarize. Fallback search used.",
